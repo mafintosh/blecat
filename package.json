@@ -1,0 +1,29 @@
+{
+  "name": "blecat",
+  "version": "0.0.0",
+  "description": "1-1 pipe over bluetooth low energy",
+  "main": "index.js",
+  "dependencies": {
+    "ble-swarm": "^1.0.1",
+    "duplexify": "^3.3.0"
+  },
+  "devDependencies": {
+    "standard": "^3.7.2"
+  },
+  "bin": {
+    "blecat": "./bin.js"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/blecat.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/blecat/issues"
+  },
+  "homepage": "https://github.com/mafintosh/blecat"
+}
