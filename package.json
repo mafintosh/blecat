@@ -1,5 +1,5 @@
 {
-  "name": "bluecat",
+  "name": "blecat",
   "version": "1.0.1",
   "description": "1-1 pipe over bluetooth low energy",
   "main": "index.js",
@@ -11,19 +11,19 @@
     "standard": "^3.7.2"
   },
   "bin": {
-    "bluecat": "./bin.js"
+    "blecat": "./bin.js"
   },
   "scripts": {
     "test": "standard"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mafintosh/bluecat.git"
+    "url": "https://github.com/mafintosh/blecat.git"
   },
   "author": "Mathias Buus (@mafintosh)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mafintosh/bluecat/issues"
+    "url": "https://github.com/mafintosh/blecat/issues"
   },
-  "homepage": "https://github.com/mafintosh/bluecat"
+  "homepage": "https://github.com/mafintosh/blecat"
 }
