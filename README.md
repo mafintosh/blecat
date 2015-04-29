@@ -14,7 +14,7 @@ On one machine with bluetooth enabled run
 echo hello world | blecat
 ```
 
-An on another one with bluetooth enabled
+And on another one with bluetooth enabled
 
 ```
 blecat
@@ -35,9 +35,9 @@ blecat < myfile.txt
 To receive it on another
 
 ```
-bluecat > myfile.txt
+blecat > myfile.txt
 ```
 
 ## License
 
-MIT
+[MIT](LICENSE)
