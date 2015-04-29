@@ -1,6 +1,6 @@
 {
   "name": "blecat",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "1-1 pipe over bluetooth low energy",
   "main": "index.js",
   "dependencies": {
