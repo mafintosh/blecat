@@ -1,9 +1,9 @@
-# blecat
+# bluecat
 
 A 1-1 pipe over bluetooth low energy
 
 ```
-npm install -g blecat
+npm install -g bluecat
 ```
 
 ## Usage
@@ -11,25 +11,25 @@ npm install -g blecat
 On one machine with bluetooth enabled run
 
 ```
-echo hello world | blecat
+echo hello world | bluecat
 ```
 
-An on another one with bluetooth enabled
+And on another one with bluetooth enabled
 
 ```
-blecat
+bluecat
 ```
 
 The second machine should now print out `hello world`.
 
 ## Transfer files
 
-You can also transfer files using blecat
+You can also transfer files using bluecat
 
 To share a file from a machine do
 
 ```
-blecat < myfile.txt
+bluecat < myfile.txt
 ```
 
 To receive it on another
@@ -40,4 +40,4 @@ bluecat > myfile.txt
 
 ## License
 
-MIT
+[MIT](LICENSE)
