@@ -4,7 +4,7 @@
   "description": "1-1 pipe over bluetooth low energy",
   "main": "index.js",
   "dependencies": {
-    "ble-swarm": "^1.0.1",
+    "ble-swarm": "^1.0.2",
     "duplexify": "^3.3.0"
   },
   "devDependencies": {
