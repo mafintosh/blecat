@@ -38,6 +38,12 @@ To receive it on another
 blecat > myfile.txt
 ```
 
+## Linux
+
+This requires `bluetooth.h` headers in order to build the native component on Linux.
+
+To install on ubuntu, `sudo apt-get install libbluetooth-dev` before `npm install blecat`
+
 ## License
 
 [MIT](LICENSE)
